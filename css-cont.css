@@ -320,6 +320,10 @@ form {
   align-items: center;
   font-size: 0.95rem;
 }
+.information-1 a{
+  text-decoration: none;
+  color: #555;
+}
 
 .icon-1 {
   width: 28px;
