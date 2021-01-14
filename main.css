@@ -1,0 +1,262 @@
+* {
+  overflow-x: hidden;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.background {
+  width: 100%;
+  height: 1000px;
+  background-image: linear-gradient(to bottom, #818792, #989ca6, #b0b2ba, #c7c8ce, #dfdfe3, #eaeaec, #f4f4f6, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff);  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.background2{
+  width: 100%;
+  height: 1000px;
+  background-color: #ffff;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.logo {
+  width: 167px;
+  height: 121px;
+  background: url("EpochzeroLogo.jpeg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 59px;
+  overflow: hidden;
+}
+.heading {
+  width: 900px;
+  color:#394756;
+  position: absolute;
+  top: 10%;
+  left: 282px;
+  font-family: Uni Sans;
+  font-weight: BOLD;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+/*----------Clients----------*/
+
+
+.sierra {
+  width: 5000px;
+  height: 450px;
+  border-radius: 2000px;
+  background: #394756;
+  position: absolute;
+  top: 45%;
+  left: 210px;
+  text-indent: 5%;
+}
+.name{
+    color:#ffff;
+    justify-content: center;
+    align-items: center;
+    font-family: Uni Sans;
+    font-weight: bold;
+    line-height: 150px;
+    font-size: 30px;
+    font-weight: 350;
+}
+.ph1{
+  color: #ffff;
+  line-height: 220px;
+  font-family: uni SANS;
+  font-size: 35px;
+}
+
+.john {
+  width: 5000px;
+  height: 450px;
+  border-radius: 2000px;
+  background: #394756;
+  position: absolute;
+  top: 122%;
+  right: 210px;
+  text-indent: 86%;
+  justify-content: right;
+  align-items: right;
+}
+.grazia {
+  width: 5000px;
+  height: 450px;
+  border-radius: 2000px;
+  background: #394756;
+  position: absolute;
+  top: 200%;
+  left: 210px;
+  text-indent: 5%;
+}
+/*-----------footer-----------*/
+
+footer{
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 50px 100px;
+  background: #29323c;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: 'Roboto', sans-serif;
+}
+footer .container-footer{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+footer .container-footer .aboutus{
+  margin-right: 30px;
+  width: 40%;
+}
+footer .container-footer .aboutus h2{
+  position: relative;
+  color: #fff;
+  font-family: 'Yantramanav', sans-serif;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+footer .container-footer .aboutus h2::before{
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 50px;
+  height: 3px;
+  background: #e86100;
+}
+footer .container-footer .aboutus p{
+  color: #999;
+  font-size: 14.5px;
+}
+.social{
+  margin-top: 22px;
+  display: flex;
+}
+.social li{
+  list-style: none;
+}
+.social li a{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: #394756;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.social li a .fa{
+  color: #fff;
+  font-size: 18px;
+}
+.social li a:hover{
+  background: #e86100;
+}
+footer .container-footer .quicklinks h2{
+  position: relative;
+  color: #fff;
+  font-family: 'Yantramanav', sans-serif;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+footer .container-footer .quicklinks h2::before{
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 50px;
+  height: 3px;
+  background: #e86100;
+}
+.quicklinks{
+  position: relative;
+  width: 25%;
+}
+.quicklinks ul li{
+  list-style: none;
+}
+.quicklinks ul li a{
+  color: #999;
+  font-size: 14.5px;
+  text-decoration: none;
+  margin-bottom: 8px;
+  display: inline-block;
+}
+.quicklinks ul li a:hover{
+  color: #fff;
+}
+.contactus{
+  width: calc(35% - 60px);
+  margin-right: 0 !important;
+}
+footer .container-footer .contactus h2{
+  position: relative;
+  color: #fff;
+  font-family: 'Yantramanav', sans-serif;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+footer .container-footer .contactus h2::before{
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 50px;
+  height: 3px;
+  background: #e86100;
+}
+.contactus .information{
+  position: relative;
+}
+.contactus .information li{
+  display: flex;
+  list-style: none;
+  margin-bottom: 16px;
+}
+.contactus .information li span{
+  font-size: 14.5px;
+  color: #999;
+}
+.contactus .information li span i{
+  color: #fff;
+  font-size: 25px;
+  margin-right: 10px;
+}
+.contactus .information li span a{
+  color: #999;
+  text-decoration: none;
+}
+@media(max-width:900px){
+  footer{
+      padding: 40px;
+  }
+  footer .container-footer{
+      flex-direction: column;
+  }
+  footer .container-footer .aboutus{
+      margin-bottom: 25px;
+      width: 100%;
+  }
+  footer .container-footer .contactus{
+      width: 100%;
+  }
+  footer .container-footer .quicklinks{
+      width: 100%;
+  }
+}
